@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+imagemDeFundo {
+  background-image: ./imagens/novo_titulo.jpg
+}
+
+.headerLogo {
+    background-image: url("./imagens/novo_titulo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: .1vh;
+}
+
+.logoLabinfo {
+    padding: .1vh;
+    height: 11vh;
+}
+
+.titulo {
+  text-align: center;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  color: white;
+}
+
+.colunaLateral {
+  height: 100%;
+}
+
+.cabecalhoBolsista {
+  text-align: center;
+  background-color: yellow;
+  color: blue;
+  border: 1px solid black;
+}
+
+.infoBolsista{
+  text-align: center;
+}
+
+.linkes{
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.exLinkes{
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#tabela {
+  width: 100%;
+}
+/*.tabela {
+  border: 1px solid;
+  background-color: DodgerBlue;
+
+}
+
+.tabela td, th {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+/*.tabela tr:hover {
+  background-color: CornflowerBlue;
+}*/
+
+table tr:nth-child(even){
+  background-color: DarkGray;
+}
